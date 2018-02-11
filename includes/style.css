@@ -1,0 +1,826 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header , nav , footer , main , section , article{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+/*---------body------------------------------------*/
+body{
+    width:100%;
+    background-color: #f5f5f5 !important;  
+}
+main h1{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 200%;
+}
+/*---------wrapper------------------------------------*/
+#wrapper{  
+    max-width: 1000px;
+    width:100%;
+    margin: 0 auto;
+}
+/*-------header--------------------------------------*/
+header{
+    height: 100px;
+}
+#clearheader:first-child{
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: 10px;
+    margin-top: 30px;
+    height: 50px;
+    width:120px;
+    float: left;
+}
+header #clearheader a span{
+    color: #0B2CE9;
+    font-family: arial;
+    font-weight: bold;
+    margin-left: 43px;
+    width: 70px;
+    float: left;
+}
+header article{
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 200%;
+
+
+
+}
+
+header h4{
+    display: none;
+}
+#clearheader{
+    overflow: hidden;
+}
+/*------------nav----------------------------*/
+#desktopnav a.nav-link{
+    padding-top: 4px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+#desktopnav a:hover{
+    color: #3792ff !important;
+}
+
+/*--------user header--------------------*/
+
+#logOut a , #headeruser{
+    text-decoration: none;
+
+}
+#headeruser{
+    overflow: hidden;
+    float: right;
+    display: none;
+
+}
+
+#headeruser span{
+    margin-right: 10px;
+    margin-top: 44px;
+    display: block;
+    float: left;
+    color: #000000;
+
+}
+
+#headeruser article{
+    margin-top: 47px;
+    font-size: 20px;
+    display: block;
+    margin-right: 7px;
+    color: #000000;
+    float: left;   
+}
+#logOut span{
+    margin-right: 10px;
+    margin-top: 15px;
+    display: block;
+    float: left;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+#logOut article{
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 35px;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 7px;
+    color: #000000;
+    display: block;
+    float: left;
+    font-weight: bold;
+
+}
+
+
+}
+/*----------mobile nav-----------------------*/
+#mobilenav li{
+    width: 160px;
+    margin-left: 10px;
+}
+#mobilenav li:nth-child(1){
+    margin-top: 20px;
+}
+#mobilenav li{
+    margin-top: 10px;
+}
+#mobilenav li a{
+    font-size: 13px;
+    font-weight: 100;
+    color: #3d8af7;
+    height: 35px;
+}
+#mobilenav li a span{
+    color: #000000;
+    margin-right: 7px;
+}
+#mobilenav li:hover{
+    background-color: #fff;
+}
+
+a.nav-link.mobileselcted{
+    border-bottom: 2px solid #000000;
+}
+/*---------mobilemainnav------------------*/
+#mobilemainnav a.nav-link{
+    color: #000000!important;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#mobilemainnav{
+    display: none;
+}
+
+#mobilemainnav ul{
+    position: relative;
+    bottom: 40px;
+    left: 50px;
+    overflow: hidden;
+    width: 80%;
+
+}
+
+#mobilemainnav li{
+    float: left;
+    list-style: none;  
+    width: 50%;
+    text-align: center;
+}
+
+
+
+
+/*---------------mobile sec nav-----------*/
+#mobilesemobileselectedcnav{
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    float: right;
+}
+/*-----------footer-------------------------*/
+footer{
+}
+/*---------------contact---------------------*/
+footer section:nth-child(1){
+    margin-bottom: 0px;
+    width: 50%;
+}
+footer section:nth-child(1) ul{
+    margin-bottom: 0px; 
+}
+footer section:nth-child(1) a{
+    color: #FFFFFF;
+}
+footer section:nth-child(1) li{
+    list-style: none;
+}
+footer section:nth-child(1) li:nth-child(1){
+    font-weight: bold;
+    font-size: 120%;
+    margin-bottom: 0px;
+}
+footer section:nth-child(1) li:nth-child(2){
+    display: inline;
+}
+footer section:nth-child(1) li:nth-child(3){
+    display: inline;
+}
+/*-------social--------------------------*/
+footer section:nth-child(2){
+    float: right;
+    width: 50%;
+}
+footer section:nth-child(2) ul{
+    display: flex;
+    margin-bottom: 0px;
+    justify-content: flex-end;
+}
+/*---*/
+footer section:nth-child(2) li{
+    list-style: none;
+    text-align: left;
+}
+footer section:nth-child(2) a{
+    width: 50px;
+    height: 50px;
+    background: #7a7a7a;
+    text-align: center;
+    line-height: 50px;
+    font-size: 27px;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 7px;
+}
+footer section:nth-child(2) a .fa{
+    position: relative;
+    color: #262626;
+    transition: .5s;
+}
+footer section:nth-child(2) a:hover .fa{
+    transform: rotateY(360deg)
+}
+/*--------------login form------------------*/
+#loginform{
+    background-color: floralwhite;
+    margin: 0 auto;
+    margin-top: 20%;
+    height: 280px;
+    padding-top: 20px
+}
+#loginbutton{
+    margin-top: 30px;
+}
+/*-----------trainee dashboard button--------*/
+#addtraineesection{
+    overflow: hidden;
+}
+#addtraineebtn{
+    cursor: pointer;
+    margin-right: 30px;
+}
+/*---------------trainees table--------------*/
+#disptrainee{
+    margin-top: 30px;
+}
+/*--------------trainees table---------------*/
+#traineestable  thead tr th:nth-child(1){
+    text-align: left;
+    padding-left: 10px;
+}
+#traineestable  thead tr th{
+    width:80px;
+    text-align: center;
+}
+#traineestable  tbody tr th{
+    width:170px;
+    text-align: left;
+    padding-left: 10px;
+}
+#traineestable  tbody tr td{
+    text-align: center;
+}
+#traineestable thead{
+    background-color: #ffffff;
+}
+#traineestable thead th{
+    font-weight: bold;
+    font-size: 100%;
+    padding-left: 10px;
+    text-align: left;
+}
+#traineestable tbody tr td{
+    text-align: left;
+    padding-left: 10px;
+    font-size: 90%;
+    vertical-align: inherit;
+}
+#traineestable tbody tr td:nth-child(5) p{
+    margin-left: 10px;
+}
+#traineestable tbody tr td p{
+    margin:0; 
+}
+#traineestable tr {
+    height: 50px;
+}
+#traineestable {
+    margin-top: 30px;
+}	
+/*----------------main-----------------------*/
+main{
+    height: 800px;
+    margin: 0 10px;
+}
+/*-----------training suggestions------------*/
+#programs .row{
+    margin: 20px 0 0 20px;
+}
+div .card{
+    margin: 20px;
+}
+
+/*--------trainee home mobile------------------*/
+
+#traineeplan a{
+    background-repeat: no-repeat;
+    height: 190px;
+    display: block;
+    background-size: cover;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#traineeplan a span{
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 190px;
+    vertical-align: middle;
+    margin: 0 auto;
+
+}
+#traineeplan a:nth-child(1){
+    background-image: url(../images/1small.jpg);
+}
+
+#traineeplan a:nth-child(2){
+    background-image: url(../images/2small.jpg);
+}
+
+#traineeplan a:nth-child(3){
+    background-image: url(../images/3small.png);
+}
+
+main section.container:first-child{
+    background-color: aqua;
+}
+/*-------------new trainee 1 form-------------*/
+#newtrainee1{
+    margin-top: 70px;
+}
+#newtrainee1 label{
+    margin-left: 47%;
+    font-weight: bold;
+}
+/*-------formbuttons-------------------------*/
+.formbuttons{
+    margin: 40px ; 
+}
+/*----------------pop up---------------------*/
+#popup{
+    border-radius: 6px;
+    color:#657B64;
+    font-size:larger;
+    background-color: #DEF0D8;
+    position: absolute;
+    max-width: 400px;
+    width:40%;
+    height: 160px;
+    top: 30%;
+    left: 30%;
+    visibility: hidden;
+}
+#popup .btn-default{
+    background-color: #00c851;
+    margin:10px 0 0 45%;
+}
+#popup div{
+    margin-top:5px;
+    text-align: center;
+}
+#popup a{
+    color: #fff;
+}
+/*------------progressbar-------------------*/
+.progress{
+    width:40%;
+    height: 15px;
+    margin:auto;
+    border-radius: 7px;
+    border:1px solid #000000;
+}
+/*-------------breadcrumbs------------------*/
+#breadcrumbs ul{
+    margin: 10px 0 0 20px;
+    color: #006ce5;
+}
+#breadcrumbs ul li{
+    display: inline;
+    margin-right: 3px;
+}
+/*---------buttons Training suggestions-------------------------*/
+#buttons a{
+    margin-left: 29px;
+    margin-bottom: 15px;
+}
+
+/*----------------sidemenu------------------*/
+.sidemenu{
+    margin:70px 0 0 40px;
+}
+.sidemenu ul{
+    list-style: none;
+    margin:0;	
+}
+.sidemenu ul:first-child{
+    width: 150px;
+    background-color: aqua;
+}
+.sidemenu ul li{
+    padding:10px;
+    position: relative;	
+    width:150%;
+    background-color: #fff;	
+    border-top:1px solid #BDC3C7;
+}
+.sidemenu ul ul{
+    transition: all 0.3s;
+    opacity: 0;
+    visibility: hidden;	
+    position: absolute;
+    left:100%;
+    top:0;
+    padding-left: 2px;
+}
+.sidemenu ul ul ul{
+    width: 100px;
+}
+.sidemenu ul li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+}
+.sidemenu ul li:hover{
+    background-color: #c4e3e2;
+}
+.sidemenu a:hover{
+    font-weight: bold;
+}
+.sidemenu span{
+    float: right;
+    margin-top: 4px;
+}
+.sidemenu ul li a{
+    color:black;
+    text-decoration: none;	
+}
+/*--------------plan----------------*/
+#plan{
+    width:100%;
+    overflow: hidden;
+}
+#plan article:nth-child(1){
+    margin-top: 70px;
+    margin-left: 40px;
+    float: left;
+}
+#plan article:not(:first-child) {
+    margin-top: 70px;
+    float: right;
+    width:57%;
+    margin-right: 40px;
+}
+#plan article:nth-child(2){
+    margin-top: 70px;
+}
+#plan article:nth-child(3){
+    margin-top: 40px;
+}
+/*----------display plan table------------*/
+#plan table{
+    border-spacing:0;
+    line-height: 8px;
+}
+#plan table thead th:first-child{
+    border-top-left-radius:20px;
+}
+#plan table thead th:last-child{
+    border-top-right-radius:20px;
+}
+#plan table thead{
+    background-color: #c4e3e2;
+    line-height: 6px;
+}
+#plan table thead tr th:nth-child(1){
+    text-align: left;
+    padding-left: 10px;
+}
+#plan table thead tr th{
+    width:80px;
+    text-align: center;
+}
+#plan table tbody{
+    border-top: none;
+    border:1px solid #BDC3C7;
+}
+#plan table tbody tr th{
+    width:170px;
+    text-align: left;
+    padding-left: 10px;
+}
+#plan table tbody tr td{
+    text-align: center;
+}
+/*-------------updaet measure--------------*/
+#updatemeasure{
+    margin:70px 0 0 20px; 
+}
+#updatemeasure .fa-text-width{
+    color:#5cb85c !important;
+}
+#updatemeasure .fa-percent{
+    color:#ff6624 !important;
+}
+#updatemeasure .fa-map-marker{
+    color:#46b8da !important;
+}
+#updatemeasure .fa-refresh{
+    color:#d757f6 !important;
+}
+#updatemeasure .fa-fire{
+    color:#FF6624 !important;
+}
+#updatemeasure .fa-user-md{
+    color:#006CE5 !important;
+}
+#updatemeasure button{
+    background-color: #2bbbad;
+    border: 0;
+    margin-top: 20px;
+}
+#updatemeasure button:hover{
+    background-color: mediumaquamarine;
+}
+/*--------------measure page------------*/
+
+
+#indices{
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3px;
+    margin-bottom: 70px;
+}
+#indices i , #steps i{
+    color: #72bb53;
+    margin-top: 15px;
+}
+
+
+#indices > div , #steps > div{
+    border-radius: 100%;
+    border: 4px solid #72bb53;
+    background-color: #f1f1f1;
+    width: 60px;
+    height: 60px;
+    margin-left: 45px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 160%;
+    transition: .5s;
+}
+
+#indices label , #steps label{
+    font-size: 63%;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #2196f3;
+}
+
+
+#steps{
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3px;
+}
+
+#steps > div{
+    width: 100px;
+    height: 100px;
+} 
+
+#steps label{
+    width: 110px;
+    margin-top: 38px;
+}
+
+#steps i{
+    margin-top: 34px;
+}
+
+#indices > div:hover , #steps > div:hover{
+    background: #C2DBB4;
+}
+
+/*-----------chart-container-----------*/
+
+#chart-container{
+    overflow: hidden;
+    float:left;
+    margin-left:20px;
+    width:70%;
+}
+
+
+
+/*---------trainee dashboard-----------*/
+
+#options{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#options a{
+    color: 5cb85c;
+
+}
+
+#rangeselect button{
+    margin: 5px;
+    width: 80%;
+}
+
+#rangeselect{
+    border-radius: 6px;
+    padding: 30px 10px 30px 10px;
+    background-color: #aedd94;
+    width: 25%;
+    float:left;
+}
+
+#rangeselect a{
+
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+}
+
+#rangeselect section{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#rangeselect section label{
+    display: block;
+}
+
+#rangeselect section h5{
+    margin-bottom: 15px;
+}
+/*---------------------------------------*/
+a.nav-link{
+    color: #fff!important;
+}
+/*---------selected----------------------------*/
+a.selected{
+    color: #3792ff!important;
+}
+/*-----------sign in button*/
+#loginbutton{
+    cursor: pointer;
+}
+/*------------media query-------------------*/
+@media (max-width:767px) {
+    nav form.form-inline{
+        display: none;
+    }
+    header article{
+        display:none;
+    }
+    #desktopnav{
+        display: none;
+    }
+    header a{
+        margin-left: 5px;
+        margin-top: 5px;
+        height: 50px;
+    }
+    #clearheader{
+        height: 60px;
+    }
+    footer section:nth-child(1) a{
+        color: rgba(0,0,0,.5);
+    }
+    footer.navbar{
+        display: none;
+    }
+    h1{
+       // display: none;
+    }
+    #breadcrumbs{
+        display: none;
+    }
+    #plan article:not(:first-child) {
+        float: left;
+        width: 90%;
+        margin: 10px;
+    }
+    #addtraineesection{
+        padding-top: 15px;
+        padding: 10px;
+    }
+    #addtraineebtn{
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    a.nav-link{
+        color: #3792ff!important;
+    }
+    #newtrainee1 .form-group {
+        width: auto;
+    }
+
+    #newtrainee1 .form-group input{
+        width: auto;
+    }
+
+    #indices > div{
+        margin-left: 30px;
+    }
+
+    #options{
+        margin-left: 0px;
+        padding: 5px;
+    }
+    #options a{
+        display: block;
+        margin: 3px 0 0 0;
+    }
+    #rangeselect{
+        display: none;
+    }
+    
+     #chart-container{
+        display: none;
+    }
+
+    #headeruser{
+        display: block;
+    }
+
+    #logOut{
+        display: none;
+    }
+
+    #mobilemainnav{
+        display: block;
+    }
+
+    header h4{
+        display : inline;
+        line-height: 100px;
+        margin-left: 10%;
+
+    }
+}
+
+@media (max-width:570px) {
+
+}
+
+@media (max-width:481px) {
+    #indices > div{
+        margin-left: 15px;
+    }
+
+}
+@media (max-width:427px) {
+
+    #indices > div{
+        margin-left: 5px;
+    }
+
+}
+@media (min-width:768px) {
+
+    #mobilenav{
+        display: none;
+    }
+
+
+}

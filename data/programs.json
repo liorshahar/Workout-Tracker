@@ -1,0 +1,34 @@
+{
+	"category": "Programs",
+	"products": [{
+			"id": "1",
+			"name": "Loss Fat",
+			"img": "images/programs/1.png"
+		},
+		{
+			"id": "2",
+			"name": "Loss Fat & Diet",
+			"img": "images/programs/2.png"
+		},
+		{
+			"id": "3",
+			"name": "12 Weeks Fat Destroyer",
+			"img": "images/programs/3.png"
+		},
+		{
+			"id": "4",
+			"name": "Beginner's Fat-Loss",
+			"img": "images/programs/4.png"
+		},
+		{
+			"id": "5",
+			"name": "Metabolic Supercharge",
+			"img": "images/programs/5.png"
+		},
+		{
+			"id": "6",
+			"name": "The no-cardio workout",
+			"img": "images/programs/6.png"
+		}
+	]
+}

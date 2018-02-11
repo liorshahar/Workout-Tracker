@@ -1,0 +1,21 @@
+{
+	"category": "Indices",
+	"measure": [
+		{
+			"bmi": "18",
+			"weight": "85",
+			"fat_perc": "20",
+			"distance": "3",
+			"steps": "1230",
+			"calories": "900"
+		},
+		{
+			"bmi": "19",
+			"weight": "80",
+			"fat_perc": "18",
+			"distance": "4",
+			"steps": "1200",
+			"calories": "850"
+		}
+	]
+}
