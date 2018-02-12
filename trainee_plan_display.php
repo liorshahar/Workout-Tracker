@@ -52,7 +52,7 @@ if(!isset($_SESSION["user_id"]))
                 <div class="collapse navbar-collapse" id="navbarToggler">
                     <ul class="navbar-nav mr-auto mt-2 " id="desktopnav">
                         <li class="nav-item">
-                            <a class="selected nav-link" href="trainerdashboard.php" >DASHBOARD</a>
+                            <a class="selected nav-link" href="traineelogin.php" >DASHBOARD</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">WORKOUT</a>
@@ -63,8 +63,8 @@ if(!isset($_SESSION["user_id"]))
 
                             <article>
                                 <?php
-echo ucfirst($_SESSION['user_id'][0]);
-?>
+									echo ucfirst($_SESSION['user_id'][0]);
+								?>
                             </article>
                             <span>log Off</span>
                         </a>
@@ -85,7 +85,7 @@ echo ucfirst($_SESSION['user_id'][0]);
                                 Inbox</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">  <span class="fa fa-send"></span>
+                            <a class="nav-link" href="myplan.php">  <span class="fa fa-send"></span>
                                 My Plan</a>
                         </li>
                         <li class="nav-item">
@@ -111,19 +111,16 @@ echo ucfirst($_SESSION['user_id'][0]);
                                 <a class="nav-link"  href="#">WORKOUT</a>
                             </li>
                             <li >
-                                <a class="nav-link mobileselcted" href="trainerdashboard.php">DASHBOARD</a>
+                                <a class="nav-link mobileselcted" href="traineelogin.php">DASHBOARD</a>
                             </li>
                         </ul>
                     </div>
                 </nav>
                 <section id="breadcrumbs">
                     <ul>
-                        <li><a href="trainerdashboard.php">Dashboard</a></li> >
-                        <li><a href="newtrainee1.php">Personal Details</a></li> >
-                        <li><a href="newtrainee2.php">Personal Indices</a></li> >
-                        <li><a href="trainingsuggestions.php">Training Suggestions</a></li> >
-                         <li><a href="customworkout.php">Custom Workout</a></li> >
-                        <li><a href="plan_display.php">Plan Display</a></li>
+                        <li><a href="traineelogin.php">Dashboard</a></li> >
+                         <li><a href="traineechangeprogram.php">Change Workout</a></li> >
+                        <li><a href="trainee_plan_display.php">Plan Display</a></li>
 
                     </ul>                  
                 </section>

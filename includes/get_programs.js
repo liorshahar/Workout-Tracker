@@ -25,9 +25,11 @@ $(document).ready(function(){
 function choose(){
 	var element = $(this).siblings().get(0);
 	var workout = $(element).text();
-	var trainee_id = $_SESSION['trainee_id'];
+
+	var trainee_id = 	"<?php echo $_SESSION['trainee_id'] ?> ";
+	console.log(trainee_id);
 	var queryString = 'workout=' + workout + '&trainee_id=' + trainee_id;
-	console.log(text);
+	console.log(queryString);
 	
 	
 	$.ajax({
@@ -35,7 +37,7 @@ function choose(){
 	    url: "updateprogram.php",
 	    data: queryString ,
 	    success: function(response) {
-	    	console.log(response); 
+	    	location.href = "http://shenkar.html5-book.co.il/2017-2018/html5/dev_218/trainee_plan_display.php"; 
 	    }
 	});
 return false; // Prevent the browser from navigating to the-script.php

@@ -131,7 +131,14 @@ header h4{
 }
 
 
+/*-------main-------------------------*/
+
+#index{
+    background-image: url(../images/index.jpg);
+    margin: 0;
 }
+
+
 /*----------mobile nav-----------------------*/
 #mobilenav li{
     width: 160px;
@@ -330,7 +337,9 @@ footer section:nth-child(2) a:hover .fa{
 /*----------------main-----------------------*/
 main{
     height: 800px;
-    margin: 0 10px;
+    margin: 0;
+    background-repeat: no-repeat;
+    height: 660px;
 }
 /*-----------training suggestions------------*/
 #programs .row{
@@ -797,6 +806,10 @@ a.selected{
         margin-left: 10%;
 
     }
+    
+    #index{
+        background-image: none;
+    }
 }
 
 @media (max-width:570px) {
@@ -814,6 +827,7 @@ a.selected{
     #indices > div{
         margin-left: 5px;
     }
+
 
 }
 @media (min-width:768px) {

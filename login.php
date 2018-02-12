@@ -118,7 +118,7 @@ if(!empty($_POST["user_name"])) { //if form was submitted
                     </ul>
                 </div>
             </nav>
-            <main>
+            <main id="index">
                 <div class="container">
                     <div class="row">
                         <div id="loginform" class="col-md-4 col-md-offset-4">
@@ -147,7 +147,7 @@ echo $message;
                         </div>
                     </div>
                 </div>
-            </main>
+            </main >
             <footer class="navbar navbar-toggleable-xl navbar navbar-inverse bg-inverse">
                 <section id="contact">
                     <ul >

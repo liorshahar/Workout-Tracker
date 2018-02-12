@@ -12,23 +12,23 @@
 		},
 		{
 			"id": "3",
-			"name": "12 Weeks Fat Destroyer",
-			"img": "images/programs/3.png"
+			"name": "Stepup Jump",
+			"img": "images/programs/9.png"
 		},
 		{
 			"id": "4",
-			"name": "Beginner's Fat-Loss",
-			"img": "images/programs/4.png"
+			"name": "Pilates",
+			"img": "images/programs/8.png"
 		},
 		{
 			"id": "5",
-			"name": "Metabolic Supercharge",
+			"name": "Strength",
 			"img": "images/programs/5.png"
 		},
 		{
 			"id": "6",
-			"name": "The no-cardio workout",
-			"img": "images/programs/6.png"
+			"name": "TRX",
+			"img": "images/programs/7.png"
 		}
 	]
 }
